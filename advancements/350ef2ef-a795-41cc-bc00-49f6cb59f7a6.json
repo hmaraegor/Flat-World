@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-01-28 19:34:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_nether_bricks_from_nether_bricks_stonecutting": {
     "criteria": {
       "has_nether_bricks": "2023-01-28 18:26:53 +0000"
@@ -62,6 +68,18 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2023-01-28 18:14:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-01-28 19:37:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-01-28 19:37:38 +0000"
     },
     "done": true
   },
@@ -128,6 +146,12 @@
   "minecraft:recipes/decorations/nether_brick_wall": {
     "criteria": {
       "has_nether_bricks": "2023-01-28 18:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-01-28 19:37:38 +0000"
     },
     "done": true
   },
@@ -265,6 +289,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "baked_potato": "2023-01-28 19:52:50 +0000",
       "carrot": "2023-01-28 17:22:02 +0000"
     },
     "done": false
@@ -635,9 +660,27 @@
     },
     "done": true
   },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2023-01-28 19:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_bricks": {
+    "criteria": {
+      "has_end_stone": "2023-01-28 19:37:38 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2023-01-28 18:26:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2023-01-28 20:12:35 +0000"
     },
     "done": true
   },
@@ -676,7 +719,8 @@
       "minecraft:blaze": "2023-01-28 18:13:29 +0000",
       "minecraft:skeleton": "2023-01-28 19:04:32 +0000",
       "minecraft:magma_cube": "2023-01-28 18:29:07 +0000",
-      "minecraft:wither_skeleton": "2023-01-28 18:28:30 +0000"
+      "minecraft:wither_skeleton": "2023-01-28 18:28:30 +0000",
+      "minecraft:ender_dragon": "2023-01-28 20:12:35 +0000"
     },
     "done": false
   },
@@ -707,6 +751,18 @@
   "minecraft:recipes/building_blocks/nether_brick_stairs": {
     "criteria": {
       "has_nether_bricks": "2023-01-28 18:26:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-01-28 19:34:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_stonecutting": {
+    "criteria": {
+      "has_end_stone": "2023-01-28 19:37:38 +0000"
     },
     "done": true
   },
